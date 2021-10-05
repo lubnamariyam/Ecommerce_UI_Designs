@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.WishlistFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_imagewishlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="110dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/ic_group_247"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/your_wishli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/your_wishli"
+        android:textAppearance="@style/your_wishli"
+        android:translationY="-2.1sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_imagewishlist" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_look"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/your_wishli"
+        android:layout_marginTop="10dp"
+        android:weightSum="1">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/look_out_fo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/look_out_fo"
+            android:textAppearance="@style/look_out_fo"
+            android:padding="4dp"
+            app:layout_constraintRight_toLeftOf="@+id/iv_heart"
+            app:layout_constraintTop_toBottomOf="@+id/your_wishli"
+            android:layout_weight="0.40"
+            android:gravity="end"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/your_wishli"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/ic_group_250"
+            android:layout_weight="0.10"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/button_to_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_to_s"
+            android:textAppearance="@style/button_to_s"
+            android:lineSpacingExtra="7sp"
+            android:gravity="start"
+            android:padding="4dp"
+            app:layout_constraintLeft_toRightOf="@+id/iv_heart"
+            app:layout_constraintTop_toBottomOf="@+id/your_wishli"
+            android:layout_weight="0.50" />
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ll_look"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:background="@color/light_grey"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/popular_col"
+            android:layout_marginStart="20dp"
+            android:textAppearance="@style/popular_col"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="20dp"
+            android:id="@+id/rv_wish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_wishlisthorizontal"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:text="Start Shopping"
+            android:textSize="16sp"
+            app:strokeWidth="0.5dp"
+            app:strokeColor="@color/grey"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20dp"
+            android:text="Login"
+            android:textSize="16sp"
+            android:backgroundTint="@color/butnblue"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Alapp</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reset_your_password">Reset your password</string>
+    <string name="having_trouble">Having Trouble?</string>
+    <string name="or_login_with">or login with</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="donthaveaccount">Don\'t have an account? REGISTER</string>
+    <string name="pswd">Password must contain 6 char</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="register">REGISTER</string>
+    <string name="login">Login</string>
+    <string name="have_an_account">Have an account?</string>
+
+    <string name="your_wishli">Your wishlist is empty!</string>
+    <string name="look_out_fo">Look out for</string>
+    <string name="button_to_s">button to save your favorites</string>
+    <string name="popular_col">Popular Collections</string>
+
+
+</resources>
