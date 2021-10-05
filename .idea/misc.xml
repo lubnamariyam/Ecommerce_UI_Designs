@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/activity_main.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_add_address.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_my_account.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_my_address.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_my_orders.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_onboarding.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_register.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_reset_password.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_splash.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/fragment_wishlist.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/item_wishlisthorizontal.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/myaddresslist.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/myorderslist.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/android projects/Alapp/app/src/main/res/layout/myorderslist2.xml" value="0.14895833333333333" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
